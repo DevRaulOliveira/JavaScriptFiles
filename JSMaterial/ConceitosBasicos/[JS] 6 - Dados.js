@@ -1,6 +1,10 @@
 // Tipos de dados
-// Conceitos básicos de dados e variáveis que serão mostrados abaixo
+/* Conceitos básicos de dados e variáveis que serão mostrados abaixo
 
+var = Forma classica de criação de variavel;
+let = Forma mais atual de criação de variável;
+
+*/
 // 1 - Criando variáveis.
 a = 23; // Variável a, recebe o valor 23
 b = 22; // Variável b, recebe o valor 22
