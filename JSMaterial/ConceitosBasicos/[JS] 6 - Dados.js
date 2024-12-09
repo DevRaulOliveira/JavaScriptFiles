@@ -1,18 +1,35 @@
-// Tipos de dados
-/* Conceitos básicos de dados e variáveis que serão mostrados abaixo
+// Definição de nomes de variáveis, arquivos e pastas são fundamentais
+/*
+modelos de variáveis
+De modo geral variaveis podem criadas seguindo as seguintes estruturas:
+idade = 20;
+var idade = 20;
+let idade = 20;
 
-var = Forma classica de criação de variavel;
-let = Forma mais atual de criação de variável;
-
+JAVA SCRIPT NÃO DIFERENCIA NUMEROS INTEIROS DE NUMEROS FLUTUANTES
 */
-// 1 - Criando variáveis.
-a = 23; // Variável a, recebe o valor 23
-b = 22; // Variável b, recebe o valor 22
 
-// 2 - Realizando a impressão de alguns tipos de variáveis.
-console.log('Palavra'); // É uma string
-console.log('Neste caso o numero','2','também é uma string');
-console.log('Neste casoo é um valor int',10); // Neste caso 10 tem um valor numérico inteiro
-console.log('Neste caso é um float',10.0); // Neste caso é um float
-console.log('Neste caso foi realizado uma soma de 2 +10, sendo igual a:',2+10);
-console.log('A soma de a + b é igual a',a+b);
+// 1 - Criando variável
+
+let preco = 19.9;
+let desconto = 0.4;
+
+// 2 - Imprimindo o resultado no console
+console.log('Realizando o calculo direto usando os valores numéricos',19.9 *0.6);
+console.log('Realizando a operação matematica dentro do -print-',preco * (1-desconto)); // É importante a adição do parentes interno para atingir o objetivo desejado
+
+// 3 - Retornando o calculo para dentro de uma variável e realizando a impressão
+let resultadoFim = (preco * (1-desconto));
+
+// 4 - Imprimindo o resultado fim
+console.log('O resultado sendo atribuido a uma variável',resultadoFim);
+
+// 5 - Concatenando informações
+console.log ('O preço do produto é ',preco,' após aplicar 40% de desconto temos',resultadoFim);
+
+// 6 - Verificando o tipo de dado utilizando typeof
+console.log(typeof resultadoFim);
+console.log(typeof true);
+
+// 7 - Variavel CONSTANTE que não é alterada ao longo do código, com isso o valor é mantido ao longo do código
+const idade = 20; // Com isso o valor da variável idade será fixado em 20
