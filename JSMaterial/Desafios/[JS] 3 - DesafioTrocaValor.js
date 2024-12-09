@@ -18,3 +18,9 @@ a =b;
 b = temp; // Resgata o antig valor de a que está armazenado na variável temporária
 
 console.log('O novo valor de A é', a,'e o novo valor de B é',b);
+
+// Além disso é possível realizar a troca através da troca de posição entre valores utilizando [], ficando da forma a seguir.
+
+[a,b] = [b,a];
+console.log('O novo valor de a é:', a,'e o novo valor de b é:',b);
+
