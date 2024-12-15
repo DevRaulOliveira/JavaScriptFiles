@@ -4,7 +4,7 @@
 */
 
 { // Um bloco de código
-    { // Outro bloco de código
+    { // Outro blocoez de código
         console.log('Olá');
         console.log('mundo!');
     }
