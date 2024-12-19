@@ -31,4 +31,9 @@ const prod3 = {
         secretaria: 'Nome da secretaria',
         funcionario: 'Nome do funcionario'
     }
+
+}
+
+console.log(prod3);
+=======
 }
